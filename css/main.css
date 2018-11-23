@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  margin: 0 1.5rem;
+  margin: 0;
 }
 
 h2 {
@@ -28,11 +28,14 @@ ul {
   flex-grow: 0;
   list-style-type: none;
   padding: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 ul li {
   padding: 1.5rem;
   display: inline-block;
+  width: 25%;
 }
 
 ul li:first-child {
@@ -83,4 +86,8 @@ img {
 .btn:hover {
   background-color: #000;
   border: 3px solid #000;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
