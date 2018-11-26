@@ -66,8 +66,12 @@ ul li:nth-child(4) {
 }
 
 img {
-  width: 100px;
+  width: 100%;
   display: block;
+}
+
+.card img {
+  width: 100px;
   margin: 0 auto;
 }
 
